@@ -1,0 +1,30 @@
+targets:
+  $default:
+    builders:
+      injectable_generator:injectable_config_builder:
+        enabled: true
+        options:
+          auto_register: true
+          # Generates a single config file
+          class_name: "GetItInjectableX"
+      json_serializable:json_serializable:
+        enabled: true
+        options:
+          any_map: false
+          checked: false
+          create_factory: true
+          create_to_json: true
+          disallow_unrecognized_keys: false
+          explicit_to_json: false
+          field_rename: snake
+          generic_argument_factories: false
+          ignore_unannotated: false
+          include_if_null: true
+      freezed:freezed:
+        enabled: true
+        options:
+          fallbackUnion: false
+          map: true
+          maybeWhen: true
+          maybeMap: true
+          when: true

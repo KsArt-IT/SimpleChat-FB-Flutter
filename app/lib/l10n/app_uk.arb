@@ -1,0 +1,83 @@
+{
+  "@@locale": "uk",
+  "lang": "Українська",
+  "appTitle": "Простий Чат",
+  "@appTitle": {
+    "description": "Test app for Firebase and chat features"
+  },
+  "copyright": "Copyright KsArT",
+  "@copyright": {
+    "description": "Copyright KsArT"
+  },
+  
+  "loadingState": "Loading...",
+
+  "exceptionSection": "----------",
+  "exceptionGeneral": "An error occurred, please try again later.",
+  "exceptionDecodeEntityGeneral": "Could not decode entity",
+  "exceptionDecodeEntity": "Could not decode entity: {entityName}",
+  "@exceptionDecodeEntity": {
+    "placeholders": {
+      "entityName": {
+        "type": "String"
+      }
+    }
+  },
+  "exceptionHttpGeneral": "A network error occurred during the request",
+  "exceptionHttpNotFound": "The requested resource was not found",
+  "exceptionHttpForbidden": "You don't have permissions to perform this action",
+  "exceptionHttpUnauthorized": "This request was not authorized",
+  "exceptionAuthEmailExists": "The provided email is already in use",
+  "exceptionAuthInvalidCredentials": "Invalid login credentials",
+  "exceptionAuthInternalError": "An internal error occurred",
+  "exceptionAuthInvalidEmail": "The provided email is invalid",
+  "exceptionAuthInvalidPassword": "The provided password is invalid",
+  "exceptionAuthInvalidPhone": "The provided phone number is invalid",
+  "exceptionAuthPhoneExists": "The provided phone number is already in use",
+  "exceptionAuthTooManyRequests": "The number of requests exceeds the maximum allowed",
+  "exceptionAuthUserNotFound": "No such user exists",
+  "exceptionAuthUserDisabled": "User is disabled",
+  "exceptionAuthInvalidVerificationCode": "The code entered is invalid",
+  "exceptionAuthRequiresRecentLogin": "Additional authentication required",
+  "exceptionAuthUnknown": "An unknown auth error occurred",
+  "exceptionAuthWeakPassword": "Weak password!",
+  "exceptionEntityNotFound": "The requested {entityName} was not found",
+  "@exceptionEntityNotFound": {
+    "placeholders": {
+      "entityName": {
+        "type": "String"
+      }
+    }
+  },
+  "exceptionEntityNotFoundGeneral": "The requested entity was not found",
+  "exceptionPermissionDenied": "У вас немає дозволу на виконання цієї операції.",
+
+  "chatSection": "----------",
+
+  "login": "Увійти",
+  "email": "Електронна пошта",
+  "password": "Пароль",
+  "forgotPassword": "Забули пароль?",
+  "register": "Реєстрація",
+  "googleSignIn": "Увійти через Google",
+  "chat": "Чат",
+  "settings": "Налаштування",
+  "sendMessage": "Надіслати повідомлення",
+  "typeMessage": "Введіть повідомлення...",
+  "recordAudio": "Записати аудіо",
+  "stopRecording": "Зупинити запис",
+  "playAudio": "Відтворити",
+  "stopAudio": "Зупинити",
+  "language": "Мова",
+  "selectLanguage": "Оберіть мову",
+  "english": "English",
+  "russian": "Русский",
+  "ukrainian": "Українська",
+  "logout": "Вийти",
+  "loading": "Завантаження...",
+  "error": "Помилка",
+  "retry": "Повторити",
+  "noMessages": "Поки немає повідомлень",
+  "sendTextMessage": "Надіслати текстове повідомлення",
+  "sendAudioMessage": "Надіслати аудіоповідомлення"
+}
